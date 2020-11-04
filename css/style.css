@@ -1,0 +1,182 @@
+body
+{
+    margin: 0%;
+}
+
+.header-sec
+{
+    display: flex;
+    flex-direction: row;
+    background-color:skyblue;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 13vh;
+    width: 100%;
+    border-bottom: 2px solid coral;
+}
+.fa
+{
+    color: darkgoldenrod;
+    font-size: 2em;
+}
+
+.nav-menu ul
+{
+    list-style: none;
+}
+
+.nav-menu ul li
+{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-menu ul li a
+{
+    text-decoration: none;
+    color: darkgreen;
+    border-bottom: 1px solid darkgrey;
+}
+
+.nav-menu ul li a:hover
+{
+    text-decoration: none;
+    color:darkblue;
+    border-bottom: 1px solid white;
+}
+
+.brand-logo
+{
+    height: 12vh;
+    width: 12vw;
+
+}
+
+.brand-logo img
+{
+    height: 16vh;
+    width: 14vw;
+
+}
+
+.BookTicket
+{
+    background-color: antiquewhite;
+    color: darkgreen;
+    font-size: 1em;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 400%;
+}
+
+.BookTicket:hover
+{
+    background-color:darkblue;
+    color: white;
+}
+
+
+.herounit-sec
+{
+    background-image: url("../images/i3.jpg");
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.herounitmask-sec
+{
+    height: 80vh;
+    background-color: rgba(34, 136, 34, 0.2);
+}
+
+.herounitmask-sec h2
+{
+    margin-top: 0%;
+    padding-top: 40vh;
+    font-size: 2em;
+    color: brown;
+}
+
+.herounitmask-sec a
+{
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+.herounitmask-sec a:hover
+{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+}
+.paperlayout-sec
+{
+    background-image: url("../images/i4.jpg");
+    height: 80vh;
+    background-size: cover;
+    
+}
+
+.paperlayout-sec h2
+{
+    font-size: 2em;
+    color: brown;
+}
+
+.paperlayout-sec
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.paper-flex-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.paper
+{
+    background-color: #fff;
+    height: 300px;
+    width: 280px;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10%;
+    box-shadow: 0 0 20px greenyellow;
+}
+
+.paper img
+{
+    height: 200px;
+    width: 130px;
+}
+
+
+
+.paper h4, p
+{
+    font-size: 1em;
+    color:darkmagenta;
+}
+
+footer
+{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+
+
+
+
+
